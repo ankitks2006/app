@@ -127,7 +127,7 @@ class VoiceApp(App):
         self.start_button.bind(on_press=self.start_listening)
         self.layout.add_widget(self.start_button)
 
-        self.stop_button = Button(text="Stop Listening", size_hint=(1, 0.2))
+        self.stop_button = Button(text="Stop Listening i", size_hint=(1, 0.2))
         self.stop_button.bind(on_press=self.stop_listening)
         self.layout.add_widget(self.stop_button)
 
